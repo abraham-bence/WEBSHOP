@@ -12,11 +12,11 @@ form{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    flex-direction: column;
 }
 form#user > label{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 input[type="text"]{
